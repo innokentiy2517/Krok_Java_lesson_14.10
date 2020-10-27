@@ -2,7 +2,11 @@ package Krok.school.lesson.second;
 
 import Krok.school.lesson.second.Devices.CompactDiskPlayer;
 import Krok.school.lesson.second.Devices.Device;
+import Krok.school.lesson.second.Devices.UniversalPlayer;
 import Krok.school.lesson.second.Devices.VinylPlayer;
+import Krok.school.lesson.second.Library.Song;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -17,5 +21,11 @@ public class Main {
 
         Device cdp = new CompactDiskPlayer("Компакт плейер");
         cdp.getInfo();
+
+        Device up = new UniversalPlayer("Универсальный плеер");
+        up.getInfo();
+
+        ArrayList<Song> rawSongList = new ArrayList<>();
+
     }
 }

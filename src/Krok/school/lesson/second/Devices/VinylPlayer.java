@@ -7,6 +7,6 @@ public class VinylPlayer extends Device{
 
     @Override
     public void getInfo() {
-        System.out.println(getDevice_name());
+        super.getInfo();
     }
 }

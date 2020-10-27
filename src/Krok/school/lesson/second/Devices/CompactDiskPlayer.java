@@ -5,4 +5,9 @@ public class CompactDiskPlayer extends Device {
     public CompactDiskPlayer(String device_name) {
         super(device_name);
     }
+
+    @Override
+    public void getInfo() {
+        super.getInfo();
+    }
 }
